@@ -1,0 +1,95 @@
+body,
+div {
+  margin: 0;
+}
+
+p {
+  display: inline-block;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sign-up-page {
+  display: flex;
+}
+
+.website-preview-container {
+  background-color: lightcoral;
+  width: 60%;
+  height: 100vh;
+}
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  width: 40%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: end;
+  padding-top: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.sign-up,
+.download {
+  color: black;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 400px;
+  margin: 10px 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  display: block;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.terms-conditions-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.account {
+  color: white;
+  background-color: rgb(61, 122, 255);
+  padding: 10px 5px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
